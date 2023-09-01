@@ -1,0 +1,6 @@
+boto3==1.28.31
+Flask==2.3.3
+flask_restx==1.1.0
+google_api_python_client==2.97.0
+isodate==0.6.1
+yt_dlp==2023.7.6
