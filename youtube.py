@@ -150,7 +150,7 @@ def download_video(video_id, query):
     )
     
     ydl_opts = {
-        "format": "b[height=720][ext=mp4]/mp4+b[height=720]/b", # Download format options
+        "format": "b[height=720][ext=mp4]/b[ext=mp4]/b", # Download format options
         "outtmpl": os.path.join("Download", query, f"{video_id}.%(ext)s") # File directory = Download/"query_name"/"video_id".mp4
     }
     
@@ -271,7 +271,7 @@ def work_processes(query):
         upload_to_s3(id, query)
     
     # Notification that multiprocessing worker has finished working
-    logging.info("--------------- Work completeted for: " + query + "---------------")
+    logging.info("--------------- Work completed for: " + query + "---------------")
 
 
 def main():

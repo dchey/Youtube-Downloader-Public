@@ -16,8 +16,7 @@
 * AWS S3 Bucket : https://aws.amazon.com/s3/
 * AWS DynamoDB : https://aws.amazon.com/pm/dynamodb/
 * Youtube API : https://developers.google.com/youtube/v3
-* yt-dlp documentation : https://github.com/yt-dlp/yt-dlp
- * yt-dlp installation : https://www.youtube.com/watch?v=L7GcjfTNRvA
+* yt-dlp : https://github.com/yt-dlp/yt-dlp
 
 ## Getting Started
 ### Prerequisites
